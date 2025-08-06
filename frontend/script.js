@@ -72,7 +72,7 @@ async function analyzeArea(imageUrl) {
 
     try {
         // Call our backend API
-        const response = await fetch('https://urbaninfra-backend.onrender.com/analyze', {
+        const response = await fetch('https://urbaninfra.onrender.com/analyze', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
