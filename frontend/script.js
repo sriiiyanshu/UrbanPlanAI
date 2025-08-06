@@ -45,7 +45,7 @@ function generateStaticMapImage(bounds) {
     const ne = bounds.getNorthEast();
     const sw = bounds.getSouthWest();
     const visibleArea = `${sw.lat()},${sw.lng()}|${ne.lat()},${ne.lng()}`;
-    const staticMapUrl = `https://maps.googleapis.com/maps/api/staticmap?size=640x480&maptype=satellite&visible=${visibleArea}&key=${API_KEY}`;
+const staticMapUrl = `https://maps.googleapis.com/maps/api/staticmap?size=640x480&maptype=satellite&visible=${visibleArea}&key=${API_KEY}`;
 
     const outputContainer = document.getElementById('output-container');
     const imageElement = document.getElementById('static-map-image');
