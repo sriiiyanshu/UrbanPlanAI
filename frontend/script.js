@@ -72,7 +72,7 @@ async function analyzeArea(imageUrl) {
 
     try {
         // Call our backend API
-        const response = await fetch('urbancontrol-production.up.railway.app/analyze', {
+        const response = await fetch('urbancontrol-production.up.railway.app', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
