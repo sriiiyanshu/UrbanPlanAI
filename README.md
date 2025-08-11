@@ -1,8 +1,3 @@
-Of course. Here is a comprehensive `README.md` file for your UrbanInfra project. This template is designed to be professional, informative, and welcoming to other developers who might view your project on GitHub.
-
-You can copy and paste the text below into a new file named `README.md` in the root of your project folder.
-
------
 
 # UrbanInfra - AI-Powered Green Space Analysis Tool 🌳
 
