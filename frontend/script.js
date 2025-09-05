@@ -7,7 +7,7 @@ function initMap() {
   API_KEY = new URLSearchParams(scriptSrc.split("?")[1]).get("key");
 
   const mapOptions = {
-    center: { lat: 28.7041, lng: 77.1025 },
+    center: { lat: 28.6812, lng: 77.2223 },
     zoom: 12,
     mapTypeId: "satellite",
   };
